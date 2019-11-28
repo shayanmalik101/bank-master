@@ -16,7 +16,7 @@ struct new_acc{
 	int id;
 	char type[20];
 	
-}
+};
 
 new_account()
 {
@@ -154,6 +154,8 @@ start_page()
 }
 int main()
 {
+	int a=1;
+	struct new_acc x[a+1];
 	start_page();
 	
 	return 0;
